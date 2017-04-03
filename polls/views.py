@@ -4,4 +4,4 @@ import time
 # Create your views here.
 
 def index(request):
-    return HttpResponse("Hello World.  This is Django!")
+    return HttpResponse("Hello World.  This is Django, and it is " + time.strftime("%c"))
